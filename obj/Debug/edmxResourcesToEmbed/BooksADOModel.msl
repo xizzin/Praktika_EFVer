@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище booksModelContainer" CdmEntityContainer="booksEntities">
+    <EntitySetMapping Name="Authors">
+      <EntityTypeMapping TypeName="booksModel.Authors">
+        <MappingFragment StoreEntitySet="Authors">
+          <ScalarProperty Name="ID_Authors" ColumnName="ID_Authors" />
+          <ScalarProperty Name="Author_name" ColumnName="Author_name" />
+          <ScalarProperty Name="Author_Secondname" ColumnName="Author_Secondname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="booksModel.Books">
+        <MappingFragment StoreEntitySet="Books">
+          <ScalarProperty Name="ID_Books" ColumnName="ID_Books" />
+          <ScalarProperty Name="Books_name" ColumnName="Books_name" />
+          <ScalarProperty Name="Authors_ID" ColumnName="Authors_ID" />
+          <ScalarProperty Name="Genres_ID" ColumnName="Genres_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Genres">
+      <EntityTypeMapping TypeName="booksModel.Genres">
+        <MappingFragment StoreEntitySet="Genres">
+          <ScalarProperty Name="ID_Genres" ColumnName="ID_Genres" />
+          <ScalarProperty Name="Genre_name" ColumnName="Genre_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
