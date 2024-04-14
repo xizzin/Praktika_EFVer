@@ -64,18 +64,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="AuthorsPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="BooksPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="GenresPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -86,9 +74,6 @@
     </Compile>
     <Compile Include="Authors.cs">
       <DependentUpon>BooksADOModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AuthorsPage.xaml.cs">
-      <DependentUpon>AuthorsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Books.cs">
       <DependentUpon>BooksADOModel.tt</DependentUpon>
@@ -108,14 +93,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BooksADOModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="BooksPage.xaml.cs">
-      <DependentUpon>BooksPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Genres.cs">
       <DependentUpon>BooksADOModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="GenresPage.xaml.cs">
-      <DependentUpon>GenresPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
