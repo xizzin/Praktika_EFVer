@@ -7,17 +7,11 @@ C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\bin\Debug
 C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\bin\Debug\ru\EntityFramework.resources.dll
 C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\prOneEF.csproj.AssemblyReference.cache
-C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\AuthorsPage.g.cs
-C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\BooksPage.g.cs
-C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\GenresPage.g.cs
 C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\MainWindow.g.cs
 C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\App.g.cs
 C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\prOneEF_Content.g.cs
 C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\prOneEF_MarkupCompile.cache
 C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\prOneEF_MarkupCompile.lref
-C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\AuthorsPage.baml
-C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\BooksPage.baml
-C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\GenresPage.baml
 C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\MainWindow.baml
 C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\prOneEF.g.resources
 C:\Users\xizzi\OneDrive\Рабочий стол\практос\prOneEF\obj\Debug\prOneEF.Properties.Resources.resources

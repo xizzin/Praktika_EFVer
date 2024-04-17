@@ -7,19 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-            <Button x:Name="OneButton" Content="Авторы" HorizontalAlignment="Center" VerticalAlignment="Center" Height="145" Width="800" Grid.Row="0" FontFamily="Bahnschrift Condensed" FontSize="48" Click="OneButton_Click"/>
-            <Button x:Name="TwoButton" Content="Жанры" HorizontalAlignment="Center" VerticalAlignment="Center" Height="145" Width="800" Grid.Row="1" Click="TwoButton_Click" FontFamily="Bahnschrift Condensed" FontSize="48"/>
-            <Button x:Name="ThreeButton" Content="Произведения" HorizontalAlignment="Center" VerticalAlignment="Center" Height="144" Width="800" Grid.Row="2" FontFamily="Bahnschrift Condensed" FontSize="48" Click="ThreeButton_Click"/>
+        <DataGrid x:Name="BooksMainGrid" AutoGenerateColumns="False">
+            <DataGrid.Columns>
 
-            <Frame x:Name="AuthorsFrame" Grid.Row="0" FontFamily="Segoi" FontSize="12px"/>
-            <Frame x:Name="GenresFrame" Grid.Row="1"/>
-            <Frame x:Name="BooksFrame" Grid.Row="2"/>
-        </Grid>
+                <DataGridTextColumn Binding="{Binding Books_name}" Header="Название произведения"/>
+                <DataGridTextColumn Binding="{Binding Genres.Genre_name}" Header="Жанр произведения"/>
+                <DataGridTextColumn Binding="{Binding Authors.Author_name}" Header="Имя Автора/авторки"/>
+                <DataGridTextColumn Binding="{Binding Authors.Author_Secondname}" Header="Фамилия Автора/авторки"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>
