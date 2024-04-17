@@ -20,27 +20,11 @@ namespace prOneEF
     /// </summary>
     public partial class MainWindow : Window
     {
+        private booksEntities BooksDB = new booksEntities();
         public MainWindow()
         {
             InitializeComponent();
+            BooksMainGrid.ItemsSource = BooksDB.Books.ToList();   
         }
-        private void OneButton_Click(object sender, RoutedEventArgs e)
-        {
-            AuthorsPage authorsPage = new AuthorsPage();
-            AuthorsFrame.Content = authorsPage;
-        }
-
-        private void TwoButton_Click(object sender, RoutedEventArgs e)
-        {
-            GenresPage genresPage = new GenresPage();
-            GenresFrame.Content = genresPage;
-        }
-
-        private void ThreeButton_Click(object sender, RoutedEventArgs e)
-        {
-            BooksPage booksPage = new BooksPage();
-            BooksFrame.Content = booksPage;
-        }
-
     }
 }

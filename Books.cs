@@ -19,7 +19,7 @@ namespace prOneEF
         public int Authors_ID { get; set; }
         public int Genres_ID { get; set; }
     
-        public virtual Authors Authors { private get; set; }
-        public virtual Genres Genres { private get; set; }
+        public virtual Authors Authors { get; set; }
+        public virtual Genres Genres { get; set; }
     }
 }
